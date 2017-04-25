@@ -1,0 +1,12 @@
+from numpy.random import *
+from numpy import *
+import matplotlib.pylab as plt
+
+data = normal(4, 2, 10)
+x = linspace(-pi, pi, 50)
+
+y = sin(x)
+
+plt.plot(x, y, color="k", marker="o")
+
+plt.show()
